@@ -1,0 +1,63 @@
+nome sito: TeachTrack
+
+partecipanti: 
+
+Luca Cutrono
+
+fonti: 
+
+ui-ux design FRAME: figma 
+
+logo: canva
+
+
+
+
+
+Descrizione della Pagina Web
+
+Funzionalità principale: Il software permette ai professori di creare e gestire il loro calendario settimanale, associando le materie insegnate e le relative ore in cui si terranno le lezioni.
+Ruolo degli utenti:
+Admin: Aggiunge professori, crea e modifica materie e gestisce i permessi degli utenti.
+Professore: Associa le materie a sé stesso, crea il proprio calendario settimanale, visibile agli studenti.
+Studente: Accede al calendario del professore per vedere le ore di lezione.
+Permessi degli Utenti
+
+Admin:
+Gestione utenti: Può creare, modificare e eliminare account di professori e studenti.
+Gestione materie: Crea, modifica e associa le materie ai professori.
+Gestione credenziali: Può modificare le password di tutti gli utenti (professori e studenti).
+Professore:
+Creazione orari: Associa materie a giorni e orari, crea un calendario settimanale personalizzato.
+Visualizzazione e modifica del proprio calendario: Può vedere e modificare il proprio orario.
+Studente:
+Visualizzazione orari: Può vedere solo il calendario dei professori a cui è associato, con le ore di lezione in cui sono impegnati.
+Azioni Permesse
+
+Admin:
+Aggiungere e gestire utenti (professori e studenti).
+Creare e associare materie ai professori.
+Modificare credenziali di accesso (password).
+Gestire i permessi di accesso (visualizzazione, modifica).
+Professore:
+Associare le materie a sé stesso.
+Creare il proprio orario settimanale, assegnando le materie agli orari.
+Visualizzare e modificare il proprio calendario.
+Studente:
+Visualizzare il calendario settimanale del proprio professore.
+Selezionare un professore e vedere le sue ore di lezione in tutte le classi.
+Caratteristiche Tecniche e Sicurezza
+
+Accesso via credenziali: Ogni utente (professore o studente) ha un account protetto da password.
+Sicurezza e protezione dei dati: Il software deve garantire la protezione dei dati personali tramite crittografia e sicurezze adeguate nel backend, come server-side authentication e validazioni delle credenziali.
+Timeline di Sviluppo
+
+Scadenza: La scadenza per la consegna del progetto è fissata per i primi dieci giorni di maggio, quindi il tempo massimo per lo sviluppo è di circa due mesi.
+Sfide e Criticità
+
+Database e gestione dei dati: Creazione di un database ben strutturato per gestire materie, orari, professori e studenti.
+Interfaccia utente: Creare una UI semplice ma funzionale per tutti gli utenti, soprattutto per studenti che visualizzano il calendario.
+Possibili Aggiunte Future
+
+Gestione delle sostituzioni: Aggiungere funzionalità per gestire le assenze e le sostituzioni dei professori.
+Filtri di visualizzazione: Potenziale per implementare filtri aggiuntivi per gli studenti, come la selezione per classe o periodo
